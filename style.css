@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {   
+    font-size: 44px;
+    color: darkcyan;
+    text-align: center;
+}
+
+#recipe-list {
+    margin-left: 20px;
+}
+
+#recipe-list li, .home-link {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.home-link {
+    display: inline-block;
+    margin: 10px 10px 0;
+}
+
+#recipe-list a:hover, .home-link:hover {
+    color: green;
+    text-decoration: none;   
+}
+
